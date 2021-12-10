@@ -39,9 +39,21 @@
     "devServerPort": 9060,
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["en", "in", "id"],
+    "languages": ["en", "in"],
     "enableGradleEnterprise": false,
-    "entities": ["Absence", "Region", "Country", "Location", "Department", "Task", "Employee", "Job", "JobHistory"],
-    "lastLiquibaseTimestamp": 1639018399000
+    "entities": [
+      "Absence",
+      "Permission",
+      "Auhority",
+      "Region",
+      "Country",
+      "Location",
+      "Department",
+      "Task",
+      "Employee",
+      "Job",
+      "JobHistory"
+    ],
+    "lastLiquibaseTimestamp": 1639106257000
   }
 }

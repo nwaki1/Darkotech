@@ -1,0 +1,25 @@
+{
+  "darkotechApp": {
+    "auhority": {
+      "home": {
+        "title": "Auhorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Auhority",
+        "createOrEditLabel": "Create or edit a Auhority",
+        "notFound": "No Auhorities found"
+      },
+      "created": "A new Auhority is created with identifier {{ param }}",
+      "updated": "A Auhority is updated with identifier {{ param }}",
+      "deleted": "A Auhority is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Auhority {{ id }}?"
+      },
+      "detail": {
+        "title": "Auhority"
+      },
+      "id": "ID",
+      "auhorityName": "Auhority Name",
+      "permission": "Permission"
+    }
+  }
+}

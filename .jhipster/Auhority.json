@@ -1,0 +1,29 @@
+{
+  "name": "Auhority",
+  "fields": [
+    {
+      "fieldName": "auhorityName",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "permission",
+      "otherEntityRelationshipName": "auhority",
+      "relationshipName": "permission",
+      "otherEntityField": "permissionName",
+      "ownerSide": true
+    }
+  ],
+  "entityTableName": "auhority",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211210031729"
+}
