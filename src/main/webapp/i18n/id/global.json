@@ -8,6 +8,8 @@
       "entities": {
         "main": "Entitas",
         "absence": "Absence",
+        "permission": "Permission",
+        "auhority": "Auhority",
         "region": "Region",
         "country": "Country",
         "location": "Location",

@@ -1,0 +1,25 @@
+{
+  "darkotechApp": {
+    "permission": {
+      "home": {
+        "title": "Permissions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Permission baru",
+        "createOrEditLabel": "Buat atau edit Permission",
+        "notFound": "No Permissions found"
+      },
+      "created": "Permission dengan id {{ param }} telah dibuat",
+      "updated": "Permission dengan id {{ param }} telah diperbaharui",
+      "deleted": "Permission dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Permission {{ id }}?"
+      },
+      "detail": {
+        "title": "Permission"
+      },
+      "id": "ID",
+      "permissionName": "Permission Name",
+      "auhority": "Auhority"
+    }
+  }
+}
